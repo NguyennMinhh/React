@@ -1,0 +1,40 @@
+{
+    "books": [
+        { 
+            "title": "The Kite Runner", 
+            "author": "Khaled Hosseini", 
+            "published": true, 
+            "id": 1
+        },
+        { 
+            "title": "Guns, Germs, and Steel", 
+            "author": "Jared Diamond", 
+            "published": true, 
+            "id": 2
+        },
+        { 
+            "title": "Sapiens: A Brief History of Humankind", 
+            "author": "Yuval Noah Harari", 
+            "published": true, 
+            "id": 3
+        },
+        { 
+            "title": "A Song of Ice and Fire", 
+            "author": "George R. R. Martin", 
+            "published": false, 
+            "id": 4
+        },
+        { 
+            "title": "To Kill a Mockingbird", 
+            "author": "Harper Lee", 
+            "published": true, 
+            "id": 5
+        },
+        { 
+            "title": "Plato and a Platypus Walk into a Bar", 
+            "author": "Thomas Cathcart", 
+            "published": false, 
+            "id": 6
+        }
+    ]
+}

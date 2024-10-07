@@ -1,0 +1,81 @@
+.App {
+  width: 72%;
+  height: 100vh;
+  margin: 0px auto 0px auto;
+  background-color: #eafef4 ;
+}
+
+.SunE-sidebar {
+  width: 24%;
+  height: 100%;
+  background-color: #bbf4e6;
+  .top {
+    height: 14%; /* Chiếm không gian còn lại */
+    /* background-color: #f0f0f0; */
+  }
+  
+  .middle {
+    height: 75%; /* Chiếm không gian còn lại */
+    /* background-color: black; */
+  }
+  
+  .bottom {
+    height: 11%; /* Chiếm không gian còn lại */
+    /* background-color: wheat; */
+  }
+}
+
+.sunE-logo {
+  justify-content: center; 
+  align-items: center;
+  width: 100%;
+  height: 128px;
+}
+
+.sunE-logo img {
+  display: block;
+  margin: 0 auto 0 auto;
+  width:60%;
+  height: auto;
+}
+
+/* Style chung cho button MenuItem */
+.MenuItem {
+  display: block;          
+  width: 90%;
+  height: 60px;
+  background-color: #bbf4e6;
+  color: #707070;
+  font-size: 16px;  padding: 12px 20px;
+  margin: 10px auto 10px auto;
+  text-decoration: none;
+  border: none;
+  border-radius: 16px;             
+  cursor: pointer;                /* Thay đổi con trỏ thành biểu tượng tay */
+}
+
+.MenuItem:hover {
+  background-color: #ffffff;
+}
+
+/* Style cho icon hoặc phần tử bên trái của MenuItem */
+.MenuItem .icon {
+  margin-right: 10px;             /* Khoảng cách giữa icon và text */
+  vertical-align: middle;         /* Canh giữa icon */
+}
+
+.flex {
+  display: flex;
+}
+
+.block {
+  display: block;
+}
+
+.btn-menu {
+
+}
+
+/* .text-center {} */
+
+/* .menu-item {} */

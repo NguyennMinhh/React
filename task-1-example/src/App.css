@@ -1,0 +1,125 @@
+/* Tổng quát */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  /* Căn chỉnh giao diện chính */
+  .home {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Style cho thanh điều hướng bên trái */
+  .left-menu {
+    width: 20%;
+    background-color: #e7f3f4;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .left-menu h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007b7f;
+  }
+  
+  .left-menu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .left-menu li {
+    margin: 15px 0;
+  }
+  
+  .left-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007b7f;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .left-menu a:hover {
+    background-color: #d2f5f7;
+  }
+  
+  /* Style cho phần nội dung bên phải */
+  .content {
+    width: 80%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .content h2 {
+    margin-top: 0;
+    color: #007b7f;
+  }
+  
+  /* Style cho các phần bài học */
+  .lesson {
+    background: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    border: 1px solid #e7e7e7;
+    border-left: 5px solid #00c4cc;
+    border-radius: 5px;
+    transition: transform 0.2s ease;
+  }
+  
+  .lesson:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lesson h3 {
+    margin-top: 0;
+    color: #007b7f;
+  }
+  
+  .lesson p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  /* Style cho thanh Navbar */
+  .navbar {
+    width: 100%;
+    padding: 20px;
+    background-color: #00c4cc;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .navbar h1 {
+    margin: 0;
+  }
+  
+  /* Style cho các nút, tiêu đề và hiệu ứng */
+  button {
+    cursor: pointer;
+    background: #00c4cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0099a1;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
