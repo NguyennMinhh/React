@@ -1,5 +1,5 @@
 import './App.css';
-import SunEsideBar from './SunEsideBar';
+import SunEsideBar from './_components/SunEsideBar';
 
 function App() {
   return (
