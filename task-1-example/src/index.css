@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #f7f9fc;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #00c4cc;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar h1 {
+  margin: 0;
+}
+
+.navbar .links {
+  display: flex;
+  gap: 15px;
+}
+
+.navbar .links a {
+  color: white;
+  text-decoration: none;
+}
+
+.home {
+  display: flex;
+}
+
+.left-menu {
+  width: 20%;
+  padding: 20px;
+  background: #e7f3f4;
+  border-right: 1px solid #ccc;
+}
+
+.left-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.left-menu li {
+  margin: 10px 0;
+}
+
+.left-menu a {
+  text-decoration: none;
+  color: #007b7f;
+  font-weight: bold;
+}
+
+.content {
+  width: 80%;
+  padding: 20px;
+}
+
+.content h2 {
+  margin-top: 0;
+}
+
+.lesson {
+  background: #e7f3f4;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+
+.lesson.medium {
+  border-left: 4px solid #00c4cc;
+}
+
+.lesson h3 {
+  margin: 0;
+}
+
+.lesson p {
+  margin: 5px 0;
+}

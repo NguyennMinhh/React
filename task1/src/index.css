@@ -1,0 +1,12 @@
+.font-myriad-bold {
+    font-family: Myriad Pro;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+}
+  
+.block {
+    display: block;
+}
