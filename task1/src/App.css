@@ -88,12 +88,76 @@
 }
 
 /* sunE-right-container */
-.sunE-right-container {}
+.sunE-right-container {
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
 
-.sunE-main-title {}
+/* Tiêu đề chính */
+.sunE-main-title h2 {
+  color: #00bbb5;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
 
-.form-sunE-button {}
+/* Box chứa các bài tập */
+.sunE-container-box {
+  display: flex;
+  flex-direction: column;
+}
 
-.sunE-container-box {}
+/* Mỗi item của bài tập */
+.student-exercise-item {
+  padding: 15px;
+  background-color: #ffffff;
+  border: 3px solid #ddd;
+  border-radius: 24px;
+  width: 90%;
+  margin: 0 auto 20px auto;
+}
 
-.student-exercise-item {}
+.student-exercise-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-difficulty {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 25px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.exercise-difficulty.medium {
+  color: #ffffff;
+  background-color: #00d5a6;
+}
+
+.sunE-form-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #00d5a6;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 780px;
+}
+
+.sunE-form-button:hover {
+  background-color: #285a9b;
+}
+
+.student-exercise-item-context {
+  border-bottom: 1px black;
+}
+
+.student-exercise-item-context a {
+  text-decoration: none;
+  color: black;
+}
