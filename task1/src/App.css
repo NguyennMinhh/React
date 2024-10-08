@@ -134,14 +134,15 @@
 
 .exercise-difficulty.medium {
   color: #ffffff;
-  background-color: #00d5a6;
+  background: linear-gradient(to right, rgb(0, 185, 183), rgb(0, 225, 160));
 }
 
 .sunE-form-button {
   padding: 10px 20px;
   font-size: 16px;
   color: #fff;
-  background-color: #00d5a6;
+  font-weight: bold;
+  background: linear-gradient(to right, rgb(0, 185, 183), rgb(0, 225, 160));
   border: none;
   border-radius: 30px;
   cursor: pointer;
@@ -157,7 +158,11 @@
   border-bottom: 1px black;
 }
 
-.student-exercise-item-context a {
+.student-exercise-item-context {
+  border-bottom: 1px solid black;
+}
+
+.student-exercise-item-context a{
   text-decoration: none;
   color: black;
 }
