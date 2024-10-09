@@ -1,5 +1,4 @@
 import React from 'react';
-import { images } from '../img';
 
 import MainTitle from './MainTitle';
 import ExerciseItem from './ExerciseItem';
@@ -7,7 +6,7 @@ import FormButton from './FormButton';
 
 const SunERightContainer = () => {
   return (
-    <div className="sunE-right-container">
+    <>
       {/* Tiêu đề */}
       <div className="flex">
         <div>
@@ -32,7 +31,7 @@ const SunERightContainer = () => {
         />
       </div>
       
-    </div>
+    </>
   );
 };
 
