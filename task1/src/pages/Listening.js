@@ -1,10 +1,10 @@
 import React from 'react';
 
-import MainTitle from './MainTitle';
-import ExerciseItem from './ExerciseItem';
-import FormButton from './FormButton';
+import MainTitle from '../_components/MainTitle';
+import ExerciseItem from '../_components/ExerciseItem';
+import FormButton from '../_components/FormButton';
 
-const SunERightContainer = () => {
+const Listening = () => {
   return (
     <>
       {/* Tiêu đề */}
@@ -35,4 +35,4 @@ const SunERightContainer = () => {
   );
 };
 
-export default SunERightContainer;
+export default Listening;

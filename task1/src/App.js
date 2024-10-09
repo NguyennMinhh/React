@@ -1,9 +1,11 @@
 import './App.css';
 import './index.css';
-import SunEsideBar from './_components/SunEsideBar';
-import SunERightContainer from './_components/SunERightContainer';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
 import Home from './pages/Home';
+import SunEsideBar from './_components/SunEsideBar';
+import Listening from './pages/Listening';
+import Curriculum from './pages/Curriculum';
 
 function App() {
   return (
@@ -15,8 +17,11 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route exact path="/pronunciation">
-              <SunERightContainer />
+            <Route exact path="/listening">
+              <Listening />
+            </Route>
+            <Route exact path="/curriculum">
+              <Curriculum />
             </Route>
           </Switch>
         </div>

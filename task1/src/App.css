@@ -3,12 +3,14 @@
   height: 100vh;
   margin: 0px auto 0px auto;
   background-image: url("./img/bg_gv.png");
+  min-width: 120px;
 }
 
 .SunE-sidebar {
   width: 24%;
   height: 100%;
   background-color: #bbf4e6;
+  min-width: 120px;
   .top {
     height: 14%;
     /* background-color: #f0f0f0; */
@@ -31,14 +33,14 @@
   align-items: center;
   width: 100%;
   height: 128px;
+  img {
+    display: block;
+    margin: 0 auto 0 auto;
+    width:60%;
+    height: auto;
+  }
 }
 
-.sunE-logo img {
-  display: block;
-  margin: 0 auto 0 auto;
-  width:60%;
-  height: auto;
-}
 
 /* MenuItem */
 .MenuItem {
@@ -54,13 +56,15 @@
   cursor: pointer;                /* Thay đổi con trỏ thành biểu tượng tay */
 
   a { text-decoration: none; color: #404041; }
-}
-.MenuItem:hover {
-  background-color: #ffffff;
-}
-.MenuItem .icon {
-  margin-right: 10px;
-  vertical-align: middle;
+
+  MenuItem:hover {
+    background-color: #ffffff;
+  }
+
+  MenuItem .icon {
+    margin-right: 10px;
+    vertical-align: middle;
+  }
 }
 
 /* ico-active */
@@ -70,11 +74,11 @@
   height: 100%;
   object-fit: cover;
   margin: auto 10% auto 15%;
-}
 
-.ico-active img {
-  width: 60%;
-  height: auto;
+  img {
+    width: 60%;
+    height: auto;
+  }
 }
 
 .btn-menu {
@@ -96,9 +100,9 @@
 }
 
 /* Tiêu đề chính */
-.sunE-main-title h2 {
+.sunE-main-title h1 {
   color: #00bbb5;
-  font-size: 24px;
+  font-size: 30px;
   font-weight: bold;
   text-align: center;
   margin-bottom: 20px;
@@ -154,15 +158,12 @@
   background-color: #285a9b;
 }
 
-.student-exercise-item-context {
-  border-bottom: 1px black;
-}
 
 .student-exercise-item-context {
   border-bottom: 1px solid black;
-}
-
-.student-exercise-item-context a{
-  text-decoration: none;
-  color: black;
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
 }
