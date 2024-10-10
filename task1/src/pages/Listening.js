@@ -30,7 +30,6 @@ const Listening = () => {
           description="Listen and fill in the sentences."
         />
       </div>
-      
     </>
   );
 };

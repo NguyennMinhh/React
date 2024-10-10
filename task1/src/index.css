@@ -3,16 +3,27 @@
     font-weight: bold;
 }
 
+/* Flexbox */
 .flex {
     display: flex;
 }
 
-.right {
+.jc-right {
     justify-content: flex-end;
 }
 
-.left {
+.jc-left {
     justify-content: flex-start;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.scroll {
+    max-height: calc(100vh - 200px);
+    overflow: auto;
+    /* WIP */
 }
   
 .block {
@@ -34,4 +45,8 @@
     justify-content: space-between; /* Căn 2 phần tử ở 2 bên */
     align-items: center; /* Căn giữa theo chiều dọc nếu cần */
     width: 100%; 
+}
+
+.content-display {
+    
 }

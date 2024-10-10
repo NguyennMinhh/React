@@ -6,7 +6,7 @@ const MenuItem = ({img, title, link}) => {
         <button className="MenuItem"><a href={ link }>
                 <div className="flex btn-menu">
 
-                    <div alt="Item Icon" class="ico-active">
+                    <div alt="Item Icon" className="ico-active">
                         <img src={img} className="ico-active"></img>
                     </div>
                     <div alt="Item name" className="vertical-align">

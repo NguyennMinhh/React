@@ -1,10 +1,11 @@
 import React from 'react';
 
-const FormButton = ({ label }) => {
+const FormButton = ({img, label, link }) => {
   return (
-    <button className="sunE-form-button">
-      {label}
-    </button>
+      <button className="sunE-form-button flex"><a href={link}>
+        {/* <img src={img ? {img} : null} className="ico-active"></img> */}
+        {label}
+      </a></button>
   );
 };
 

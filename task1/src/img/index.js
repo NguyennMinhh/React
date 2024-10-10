@@ -7,4 +7,7 @@ export const images = {
     ICON_XEMTHEM: require('./ico_xemthem.png'),
     LOGO_HOME: require('./logo_home.png'),
     BG_GV: require('./bg_gv.png'),
+    ICON_FILTER: require('./icon_filter.png'),
+    LOGO_S: require('./logo_S.png'),
+    ICON_ADD_BLACK: require('./ico_add_black.png'),
 }

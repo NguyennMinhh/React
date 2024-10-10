@@ -150,7 +150,12 @@
   border: none;
   border-radius: 30px;
   cursor: pointer;
-}
+  margin-left: 10px;
+
+  a { text-decoration: none; color: white; }
+
+  }
+
 
 .sunE-form-button:hover {
   background-color: #285a9b;
@@ -165,3 +170,27 @@
     color: black;
   }
 }
+
+.gtcn-menu-gr {
+  span {
+    color: #373737;
+    font-size: 24px;
+    font-family: "Myriadpro-SemiBold";
+    margin-top: 10px;
+    margin-right: 30px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+}
+
+.active-tab {
+  color: #00BBB6  !important;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.box-giaotrinh-gr {
+
+}
+
+/* rel */
