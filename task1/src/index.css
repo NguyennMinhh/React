@@ -6,6 +6,14 @@
 .flex {
     display: flex;
 }
+
+.right {
+    justify-content: flex-end;
+}
+
+.left {
+    justify-content: flex-start;
+}
   
 .block {
     display: block;
@@ -13,4 +21,17 @@
 
 .one-line {
     white-space: nowrap;
-};
+}
+
+/* To fit or to make all box equal in width */
+.flex-1 {
+    flex-grow: 1;
+    width: 0;
+}
+
+.space-aligned {
+    display: flex;
+    justify-content: space-between; /* Căn 2 phần tử ở 2 bên */
+    align-items: center; /* Căn giữa theo chiều dọc nếu cần */
+    width: 100%; 
+}

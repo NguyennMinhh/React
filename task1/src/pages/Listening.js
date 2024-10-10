@@ -8,11 +8,11 @@ const Listening = () => {
   return (
     <>
       {/* Tiêu đề */}
-      <div className="flex">
-        <div>
-          <MainTitle title="Listening" />
+      <div className="space-aligned">
+        <div className="">
+            <MainTitle title="Listening" />
         </div>
-        <div className="right-aligned">
+        <div className="">
           <FormButton label="Quay lại" />
         </div>
       </div>

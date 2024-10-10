@@ -7,7 +7,7 @@ const Curriculum = () => {
     return ( 
         <>
         {/* Tiêu đề */}
-        <div className="flex one-line">
+        <div className="space-aligned">
             <div>
                 <MainTitle title="Chọn giáo trình" />
             </div>
