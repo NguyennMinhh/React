@@ -8,6 +8,11 @@
     display: flex;
 }
 
+.flex-clumn {
+    display: flex;
+    flex-direction: column;
+}
+
 .jc-right {
     justify-content: flex-end;
 }
